@@ -1,5 +1,7 @@
 // Write your cade below:
 
-var m=9%4; 
-console.log(m);
-module.exports =m;
+
+module.exports = function main(a,b) {
+{return a%b;}var m=main(9,4);
+console.log(m)
+};
