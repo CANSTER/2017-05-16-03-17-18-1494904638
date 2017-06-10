@@ -6,6 +6,7 @@ return result;
 } ;
 var m=main(9,2);
 console.log(m);
-module.exports = function main() {
+module.exports = function main(a,b) {
+result=a%b;
   
 };
